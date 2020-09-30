@@ -1,8 +1,8 @@
 class BubbleSort{
-	static calcula(){  
+  static calcula(){  
     console.log("~~~~~ Bubble Sort ~~~~~");
     let aux;
-		let vetor = [50, 12, 26, 5, 36, 147, 59, 1, 9];
+    let vetor = [50, 12, 26, 5, 36, 147, 59, 1, 9];
     let controle = false;   
         
     for(let i = 0; i < vetor.length; i++){
