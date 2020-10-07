@@ -1,11 +1,7 @@
-class Factorial{
+module.exports = function factorial (num){
 
-    factorial(number){
-
-        if (number == 1){
-            return 1;
-        }
-
-        return number * this.factorial(number - 1);
+    if(num == 1){
+        return num;
     }
+    return num * factorial(num - 1);
 }
